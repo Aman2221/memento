@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "@/styles/globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import "@/styles/responsive.css";
 
 export const metadata: Metadata = {
   title: "Memento",
@@ -23,7 +21,7 @@ export default function RootLayout({
           rel="stylesheet"
         ></link>
       </head>
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

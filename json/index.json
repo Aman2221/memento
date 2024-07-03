@@ -1,0 +1,93 @@
+{
+    "college_events":[{
+            "date" : 20,
+            "type":"SAP Business Object",
+            "venue" : "College campus"
+        },
+        {
+            "date" : 25,
+            "type":"Programming contest",
+            "venue" : "Computer lap"
+        }
+    ],
+    "create_acc_data":[{
+            "type":"text",
+            "name" : "first_name",
+            "label" : "first name"
+        },
+        {
+            "type":"email",
+            "name" : "email",
+            "label" : "E-Mail Address"
+        },
+        {
+            "type":"number",
+            "name" : "mobile_number",
+            "label" : "mobile number"
+        },{
+            "type":"text",
+            "name" : "department_name",
+            "label" : "department name"
+        },
+        {
+            "type":"text",
+            "name" : "pass_out_year",
+            "label" : "pass out year"
+        }
+    ],
+    "login_data":[
+        {
+            "type":"email",
+            "name" : "email",
+            "label" : "E-Mail Address"
+        },{
+            "type":"password",
+            "name" : "password",
+            "label" : "Enter password"
+        }
+    ],
+    "walkthroughs" :[ {
+            "index" : 1,
+            "imgUrl" : "/img/walk-1.svg",
+            "heading" : "Make contact with your college friends",
+            "desc" : "To contact people you know, all it takes is one click",
+            "buttonText" : "Next"
+        },
+        {
+            "index" : 2,
+            "imgUrl" : "/img/walk-2.svg",
+            "heading" : "Opportunities for Carriers",
+            "desc" : "Searching for new possibilities or career changes",
+            "buttonText" : "Next"
+        },
+        {
+            "index" : 3,
+            "imgUrl" : "/img/walk-3.svg",
+            "heading" : "Discover what's going on at your college.",
+            "desc" : "Stay informed about any events, gatherings, or workshops taking place at your campus.",
+            "buttonText" : "Get Started"
+        }
+    ],
+    "colleges_list" :[
+        "Harvard University",
+        "Stanford University",
+        "Massachusetts Institute of Technology",
+        "California Institute of Technology",
+        "Princeton University",
+        "Yale University",
+        "University of Chicago",
+        "Columbia University",
+        "University of Pennsylvania",
+        "Duke University",
+        "University of California, Berkeley",
+        "Northwestern University",
+        "University of Michigan",
+        "Johns Hopkins University",
+        "Cornell University",
+        "University of California, Los Angeles",
+        "University of Southern California",
+        "New York University",
+        "University of Texas at Austin",
+        "University of Wisconsin-Madison"
+      ]
+}

@@ -1,0 +1,1 @@
+export interface walk_type { [key: string]: string | number };

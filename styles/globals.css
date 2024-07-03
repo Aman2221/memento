@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,11 +21,16 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Jost", sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  .border-0 {
+    border-width: 0px;
+    border: none;
   }
 }
 
@@ -39,4 +45,22 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+select,
+select:focus,
+button,
+button:foucs,
+input,
+input:focus {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+select,
+select:focus {
+  appearance: none;
+  box-shadow: none;
+  overflow: hidden;
 }
