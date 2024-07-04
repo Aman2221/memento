@@ -3,7 +3,11 @@ import Layout from "@/components/Layout";
 import React from "react";
 
 const CollegeEvents = () => {
-  return <Layout children={<CollegeEvent />} />;
+  return (
+    <Layout>
+      <CollegeEvent />
+    </Layout>
+  );
 };
 
 export default CollegeEvents;

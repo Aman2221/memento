@@ -3,7 +3,11 @@ import Layout from "@/components/Layout";
 import React from "react";
 
 const OtpVerification = () => {
-  return <Layout children={<EnterOTP />} />;
+  return (
+    <Layout>
+      <EnterOTP />
+    </Layout>
+  );
 };
 
 export default OtpVerification;

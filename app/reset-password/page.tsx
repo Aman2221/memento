@@ -3,7 +3,11 @@ import ResetPasswordPg from "@/components/ResetPasswordPg";
 import React from "react";
 
 const ResetPassword = () => {
-  return <Layout children={<ResetPasswordPg />} />;
+  return (
+    <Layout>
+      <ResetPasswordPg />
+    </Layout>
+  );
 };
 
 export default ResetPassword;

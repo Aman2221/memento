@@ -3,7 +3,11 @@ import LoginPage from "@/components/LoginPage";
 import React from "react";
 
 const Login = () => {
-  return <Layout children={<LoginPage />} />;
+  return (
+    <Layout>
+      <LoginPage />
+    </Layout>
+  );
 };
 
 export default Login;

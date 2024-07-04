@@ -3,7 +3,11 @@ import CheckMailPg from "@/components/check-mail";
 import React from "react";
 
 const CheckMail = () => {
-  return <Layout children={<CheckMailPg />} />;
+  return (
+    <Layout>
+      <CheckMailPg />
+    </Layout>
+  );
 };
 
 export default CheckMail;

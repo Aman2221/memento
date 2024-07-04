@@ -30,7 +30,7 @@ const ResetPasswordPg = () => {
       {data.login_data.map((item) => {
         let val = item.name;
         return (
-          <div className="mt-6 flex flex-col">
+          <div key={item.label} className="mt-6 flex flex-col">
             <span className="text-sm capitalize">{item.label}</span>
             <input
               className=" bg-purple-200 px-3 py-2 mt-1  "

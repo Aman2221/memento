@@ -3,7 +3,11 @@ import Layout from "@/components/Layout";
 import React from "react";
 
 const ForgotPassword = () => {
-  return <Layout children={<ForgotPasswordPg />} />;
+  return (
+    <Layout>
+      <ForgotPasswordPg />
+    </Layout>
+  );
 };
 
 export default ForgotPassword;

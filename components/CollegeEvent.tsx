@@ -8,7 +8,10 @@ const CollegeEvent = () => {
       <h1 className="text-2xl">College name</h1>
       <div className="flex flex-col w-full">
         {data.college_events.map((item) => (
-          <div className="shadow-md flex items-center justify-between w-full py-2 px-3 mt-6">
+          <div
+            key={item.type}
+            className="shadow-md flex items-center justify-between w-full py-2 px-3 mt-6"
+          >
             <div className="flex flex-col gap-1">
               <h2 className="text-lg font-semibold">
                 {item.date}&nbsp;

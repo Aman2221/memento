@@ -3,7 +3,11 @@ import SelectCollege from "@/components/SelectCollege";
 import React from "react";
 
 const CollegeList = () => {
-  return <Layout children={<SelectCollege />} />;
+  return (
+    <Layout>
+      <SelectCollege />
+    </Layout>
+  );
 };
 
 export default CollegeList;
