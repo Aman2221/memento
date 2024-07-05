@@ -41,10 +41,11 @@ const ResetPasswordPg = () => {
           </div>
         );
       })}
-      <div className="flex flex-center text-white">
+      <div className="flex-center w-full mt-6 ">
         <BgPurple
-          onClick={() => router.push("/")}
+          onClick={() => router.push("/otp-verification")}
           buttonText="Reset Password"
+          extraClasses=" bg-drk-pk text-white"
         />
       </div>
     </div>

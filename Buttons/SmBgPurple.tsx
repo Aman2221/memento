@@ -1,6 +1,6 @@
 import React from "react";
 
-const BgPurple = ({
+const SmBgPurple = ({
   onClick,
   buttonText,
   extraClasses,
@@ -12,11 +12,11 @@ const BgPurple = ({
   return (
     <button
       onClick={onClick}
-      className={`max-w-max bg-purple-400 border-2 px-8 py-2 rounded-md mt-10${extraClasses}`}
+      className={`max-w-max bg-purple-500 border-2 py-2 px-3 text-sm rounded-md ${extraClasses}`}
     >
       {buttonText}
     </button>
   );
 };
 
-export default BgPurple;
+export default SmBgPurple;

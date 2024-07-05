@@ -4,6 +4,7 @@ import data from "@/json/index.json";
 import { login_user_init } from "@/functions";
 import BackIcon from "@/Buttons/BackIcon";
 import { useRouter } from "next/navigation";
+import BgPurple from "@/Buttons/BgPurple";
 const LoginPage = () => {
   const router = useRouter();
   const [userData, setUserData] = useState(login_user_init);
@@ -44,6 +45,14 @@ const LoginPage = () => {
         >
           Forget Password ?
         </span>
+      </div>
+
+      <div className="flex-center w-full mt-6 ">
+        <BgPurple
+          onClick={() => router.push("/login")}
+          buttonText="Login"
+          extraClasses=" bg-drk-pk text-white"
+        />
       </div>
     </div>
   );

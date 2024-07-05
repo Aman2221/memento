@@ -25,8 +25,12 @@ const CheckMailPg = () => {
           >
             An Unique User ID has been sent to your mail.
           </span>
-          <div className="text-white mt-6">
-            <BgPurple onClick={checkMail} buttonText="Check Mail" />
+          <div className="flex-center w-full mt-6 ">
+            <BgPurple
+              onClick={checkMail}
+              buttonText="Check Mail"
+              extraClasses=" bg-drk-pk text-white"
+            />
           </div>
         </div>
       </div>

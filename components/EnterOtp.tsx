@@ -49,10 +49,11 @@ const EnterOTP = () => {
           Resend
         </span>
       </div>
-      <div className="flex flex-center text-white">
+      <div className="flex-center w-full mt-6 ">
         <BgPurple
-          onClick={() => router.push("/check-email")}
+          onClick={() => router.push("/check-mail")}
           buttonText="Verify"
+          extraClasses=" bg-drk-pk text-white"
         />
       </div>
     </div>

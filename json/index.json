@@ -1,4 +1,139 @@
 {
+    "post_menu": [
+        {
+            "name":"Save",
+            "imgUrl" : "/img/bookmark.svg" 
+        },
+        {
+            "name":"Share Via",
+            "imgUrl" : "/img/send.svg" 
+        },
+        {
+            "name":"See fewer posts like this",
+            "imgUrl" : "/img/hidden.svg" 
+        },
+        {
+            "name":"Unfollow John",
+            "imgUrl" : "/img/hidden.svg" 
+        },
+        {
+            "name":"Report post",
+            "imgUrl" : "/img/flag.svg"  
+        }
+    ],
+    "user_posts" : [
+        {
+            "user_img" : "/img/y-user.png",
+            "name" : "Arijit",
+            "department":"B.Tech",
+            "date_time" : "3 days ago",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock...",
+            "images" : "/img/post-img.jpg"
+        },
+        {
+            "user_img" : "",
+            "name" : "Rahul",
+            "department":"BSC",
+            "date_time" : "1 day ago",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock...",
+            "images" : "/img/post-img.jpg"
+        },
+        {
+            "user_img" : "",
+            "name" : "Gokul",
+            "department":"M Com",
+            "date_time" : "12 hours ago",
+            "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock...",
+            "images" : "/img/post-img.jpg"
+        }
+    ],
+    "college_alumni" : [{
+        "name" :"John Dev",
+        "batch":"2022-2023",
+        "department":"Commerce Department",
+        "imgUrl" : "/img/y-user.png"
+    },
+    {
+        "name" :"Tejas Dev",
+        "batch":"2021-2023",
+        "department":"Science Department",
+        "imgUrl" : "/img/y-user.png"
+    },
+    {
+        "name" :"Rajavel Dev",
+        "batch":"2020-2023",
+        "department":"Arts Department",
+        "imgUrl" : "/img/y-user.png"
+    }],
+    "footer_opt": [
+        {
+            "icon" : "/img/home.svg",
+            "name" :"home",
+            "route" : "/home"
+        },
+        {
+            "icon" : "/img/alumni.svg",
+            "name" :"alumni",
+            "route" : "/college-alumni"
+        },
+        {
+            "icon" : "/img/post.svg",
+            "name" :"post",
+            "route" : "/post"
+        },
+        {
+            "icon" : "/img/events.svg",
+            "name" :"events",
+            "route" : "/events"
+        },
+        {
+            "icon" : "/img/more.svg",
+            "name" :"more",
+            "route" : "/more"
+        }
+    ],
+    "user_stories":[
+        {
+            "name":"Aman",
+            "imgUrl":"/img/y-user.png",
+            "id":1
+        },
+        {
+            "name":"Ankit",
+            "imgUrl":"/img/y-user.png",
+            "id":2
+        },
+        {
+            "name":"Rahul",
+            "imgUrl":"/img/y-user.png",
+            "id":3
+        },
+        {
+            "name":"Raj",
+            "imgUrl":"/img/y-user.png",
+            "id":4
+        },
+        {
+            "name":"Avinash",
+            "imgUrl":"/img/y-user.png",
+            "id":5
+        },
+        {
+            "name":"Abhishek",
+            "imgUrl":"/img/y-user.png",
+            "id":6
+        },
+        {
+            "name":"Harry",
+            "imgUrl":"/img/y-user.png",
+            "id":7
+        },
+        {
+            "name":"Sujit",
+            "imgUrl":"/img/y-user.png",
+            "id":8
+        }        
+    ],
     "college_events":[{
             "date" : 20,
             "type":"SAP Business Object",

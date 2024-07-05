@@ -1,7 +1,25 @@
+"use client";
 import React from "react";
+import { useRouter } from "next/navigation";
+import data from "@/json/index.json";
+import Image from "next/image";
 
 const Footer = () => {
-  return <div></div>;
+  const router = useRouter();
+  return (
+    <div className="fixed bottom-0 py-3 flex justify-between w-full bg-white">
+      {data.footer_opt.map((item) => (
+        <div
+          key={item.name}
+          onClick={() => router.push(item.route)}
+          className="flex-center flex-col"
+        >
+          <Image src={item.icon} height={30} width={30} alt={item.name} />
+          <span className="text-sm text-black">{item.name}</span>
+        </div>
+      ))}
+    </div>
+  );
 };
 
 export default Footer;

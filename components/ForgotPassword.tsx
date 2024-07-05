@@ -31,10 +31,11 @@ const ForgotPasswordPg = () => {
           onChange={handleInputChange}
         />
       </div>
-      <div className="flex flex-center text-white">
+      <div className="flex-center w-full mt-6 ">
         <BgPurple
           onClick={() => router.push("/reset-password")}
           buttonText="Reset Password"
+          extraClasses=" bg-drk-pk text-white"
         />
       </div>
     </div>

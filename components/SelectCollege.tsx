@@ -1,22 +1,24 @@
 "use client";
 import { useRouter } from "next/navigation";
-import React from "react";
-import data from "@/json/index.json";
+import React, { useState } from "react";
 import SelectCollegeDD from "./SelectCollegeDD";
 
 const SelectCollege = () => {
   const router = useRouter();
+  const [college, setCollege] = useState("");
+
+  const handleChange = (e: React.FormEvent<HTMLSelectElement>) => {
+    let target: any = e.target;
+    setCollege(target.value);
+    router.push("/college-events");
+  };
+
   return (
     <div className="flex-center flex-col mt-20">
       <h1 className="text-2xl">Select Your College</h1>
-      <div className="relative w-full">
-        <span className="absolute top-8 right-2">
-          <i className="bx bx-caret-down text-2xl"></i>
-        </span>
-      </div>
 
-      <div className="mt-6">
-        <SelectCollegeDD />
+      <div className="mt-6 w-full">
+        <SelectCollegeDD handleChange={handleChange} />
       </div>
 
       <div className="absolute bottom-6">
