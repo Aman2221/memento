@@ -22,7 +22,7 @@ const EventRegistePg = () => {
         </span>
         <div className="py-10">
           {data.event_register.map((item) => (
-            <div className="flex flex-col py-4 gap-1">
+            <div key={item.label} className="flex flex-col py-4 gap-1">
               <label className="capitalize" htmlFor={item.label}>
                 {item.label}
               </label>

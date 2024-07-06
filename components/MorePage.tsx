@@ -14,6 +14,7 @@ const MorePage = () => {
       <div className="py-20">
         {data.more_pages.map((item) => (
           <div
+            key={item.name}
             className="flex items-center justify-between py-4"
             onClick={() => router.push(item.route)}
           >

@@ -11,6 +11,7 @@ const EventsPage = () => {
       <div className=" flex justify-between">
         {["upcoming", "past"].map((item) => (
           <div
+            key={item}
             className={`${
               item == activeTab ? "border-purple-400" : ""
             } flex-1 flex-center py-2 border-b-2 ease-in`}

@@ -12,8 +12,8 @@ const KnowledgePage = () => {
     <>
       <Nav middleText="Knowledge" isComp={false} />
       <div className="py-20">
-        {data.knowledge_share.map((item) => (
-          <div className="border p-3 mt-5">
+        {data.knowledge_share.map((item, index) => (
+          <div key={index} className="border p-3 mt-5">
             <div className="flex gap-10 items-center">
               <div className="flex flex-col gap-3">
                 <span className="text-base font-semibold">Workshop on</span>

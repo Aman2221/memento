@@ -14,7 +14,10 @@ const JobOpeningsPg = () => {
       <Nav middleText="Job Opening" />
       <div className="py-20">
         {data.job_openings.map((item) => (
-          <div className="border p-3 mt-6 rounded-lg flex justify-start items-start gap-4  ">
+          <div
+            key={item.heading}
+            className="border p-3 mt-6 rounded-lg flex justify-start items-start gap-4  "
+          >
             <div className="w-80">
               <Image
                 className="rounded-lg w-full"
