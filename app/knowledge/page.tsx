@@ -1,13 +1,13 @@
-import HomePage from "@/components/Home";
+import KnowledgePage from "@/components/KnowledgePage";
 import Layout from "@/components/Layout";
 import React from "react";
 
-const Home = () => {
+const Knowledge = () => {
   return (
     <Layout showFooter={true}>
-      <HomePage />
+      <KnowledgePage />
     </Layout>
   );
 };
 
-export default Home;
+export default Knowledge;

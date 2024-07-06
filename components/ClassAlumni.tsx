@@ -24,8 +24,6 @@ const ClassAlumni = () => {
           data={data.college_alumni}
         />
       </div>
-
-      <Footer />
     </>
   );
 };

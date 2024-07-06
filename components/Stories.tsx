@@ -6,7 +6,11 @@ const Stories = () => {
   return (
     <div className="flex pt-4 overflow-y-scroll gap-4 w-dvw">
       {data.user_stories.map((item) => (
-        <div className="flex-center flex-col border" style={{ width: "150px" }}>
+        <div
+          key={item.name}
+          className="flex-center flex-col border"
+          style={{ width: "150px" }}
+        >
           <Image
             className="rounded-full shadow-md"
             src={item.imgUrl}

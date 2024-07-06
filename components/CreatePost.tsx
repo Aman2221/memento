@@ -5,16 +5,25 @@ import Nav from "./Nav";
 import { useRouter } from "next/navigation";
 import SelectedImages from "./SelectedImages";
 import SmBgPurple from "@/Buttons/SmBgPurple";
+import SchedulePost from "./SchedulePost";
+import hideOverlay from "@/HOC/hideOverlay";
+import Attachments from "./Attachments";
 
 const CreatePostPg = () => {
   const router = useRouter();
   const [files, setFiles] = useState<File[]>([]);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [postText, setPostText] = useState("");
+  const [showSchedule, setShowSchedule] = useState(false);
+  const [showAttach, setShowAttach] = useState(false);
+  const SchedulePostComp = hideOverlay(SchedulePost, setShowSchedule);
+  const AttachmentsComp = hideOverlay(Attachments, setShowAttach);
 
   const handleButtonClick = () => {
     fileInputRef?.current?.click();
   };
+
+  const handleSchedule = () => setShowSchedule(!showSchedule);
 
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const files = Array.from(event.target.files || []);
@@ -27,7 +36,6 @@ const CreatePostPg = () => {
   };
 
   const handleRemoveImg = (index: number) => {
-    console.log("home");
     const updFiles = files.splice(index, 1);
     setFiles([...files]);
   };
@@ -94,6 +102,7 @@ const CreatePostPg = () => {
             height={20}
             width={20}
             alt="clock img"
+            onClick={handleSchedule}
           />
           <div className="flex items-center gap-6">
             <input
@@ -105,12 +114,12 @@ const CreatePostPg = () => {
               accept="image/*"
             />
             <Image
-              onClick={handleButtonClick}
               className="rounded-full shadow-md"
               src="/img/image-plus.svg"
               height={20}
               width={20}
               alt="image plus"
+              onClick={handleButtonClick}
             />
             <Image
               className="rounded-full shadow-md"
@@ -118,10 +127,13 @@ const CreatePostPg = () => {
               height={20}
               width={20}
               alt="plus img"
+              onClick={() => setShowAttach(true)}
             />
           </div>
         </div>
       </div>
+      <AttachmentsComp show={showAttach} hide={() => setShowAttach(false)} />
+      <SchedulePostComp showSchedule={showSchedule} />
     </div>
   );
 };

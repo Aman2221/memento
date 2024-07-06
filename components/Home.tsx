@@ -5,13 +5,16 @@ import Stories from "./Stories";
 import Footer from "./Footer";
 import Post from "./Post";
 import PostMenu from "./PostMenu";
+import hideOverlay from "@/HOC/hideOverlay";
 
 const HomePage = () => {
   const [showMenu, setShowMenu] = useState(false);
-  const showPostMenu = () => {
+  const handlePostMenu = () => {
     setShowMenu(!showMenu);
   };
+
   const sidebarRef = useRef<HTMLDivElement>(null);
+  const PostMenuComp = hideOverlay(PostMenu, setShowMenu);
 
   const handleClickOutside = (event: MouseEvent) => {
     if (
@@ -32,9 +35,8 @@ const HomePage = () => {
   return (
     <div className="py-20 ">
       <Nav />
-      <Post showPostMenu={showPostMenu} />
-      <PostMenu showMenu={showMenu} />
-      <Footer />
+      <Post showPostMenu={handlePostMenu} />
+      <PostMenuComp showMenu={showMenu} hideMenu={handlePostMenu} />
     </div>
   );
 };

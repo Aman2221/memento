@@ -4,7 +4,7 @@ import React from "react";
 
 const AlumniProfile = () => {
   return (
-    <Layout>
+    <Layout showFooter={true}>
       <AlumniProfilePg />
     </Layout>
   );

@@ -1,13 +1,13 @@
-import HomePage from "@/components/Home";
 import Layout from "@/components/Layout";
+import MorePage from "@/components/MorePage";
 import React from "react";
 
-const Home = () => {
+const More = () => {
   return (
     <Layout showFooter={true}>
-      <HomePage />
+      <MorePage />
     </Layout>
   );
 };
 
-export default Home;
+export default More;

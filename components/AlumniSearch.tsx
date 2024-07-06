@@ -38,6 +38,7 @@ const AlumniSearch = () => {
       <div className="flex items-center gap-2 mt-2">
         {[2021, 2022, 2023, 2024].map((item) => (
           <div
+            key={item}
             onClick={() => handleSearchYear(item.toString())}
             className={`${
               item.toString() == search.searchYear ? "post-bg" : ""

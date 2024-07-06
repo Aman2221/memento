@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import React from "react";
 
 const ProfileCard = ({
@@ -9,7 +10,9 @@ const ProfileCard = ({
   headerText?: string;
   data?: { [key: string]: string }[];
 }) => {
+  const router = useRouter();
   const handleGrid = () => {};
+
   return (
     <>
       <div className="flex justify-between items-center mt-10">
@@ -23,8 +26,11 @@ const ProfileCard = ({
         />
       </div>
       {data?.map((item) => (
-        <div className="flex justify-between items-start mt-6">
-          <div className="flex gap-6 items-start ">
+        <div key={item.name} className="flex justify-between items-start mt-6">
+          <div
+            onClick={() => router.push("/alumni-profile")}
+            className="flex gap-6 items-start "
+          >
             <Image
               className=" rounded-full"
               src={item.imgUrl}

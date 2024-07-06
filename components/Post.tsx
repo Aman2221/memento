@@ -16,9 +16,12 @@ const Post = ({
   return (
     <>
       {data.user_posts.map((item) => (
-        <div className={`border p-3 rounded-md ${classes} mt-6`}>
+        <div
+          key={item.name}
+          className={`border p-3 rounded-md ${classes} mt-6`}
+        >
           <div className="post_header flex justify-between items-start">
-            <div className="flex  gap-4 ">
+            <div onClick={() => router.push("/alumni")} className="flex gap-4">
               <div>
                 <Image src="/img/y-user.png" alt="" height={50} width={50} />
               </div>

@@ -1,4 +1,152 @@
 {
+    "internships" : [
+        {
+            "title" : "",
+            "agency": ""
+
+        },
+        {},
+        {}
+    ],
+    "job_openings": [
+        {
+            "imgUrl" : "/img/job-1.png",
+            "heading" : "Business Analyst Developer",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's "
+        },
+        {
+            "imgUrl" : "/img/job-2.png",
+            "heading" : "UI/UX Desinger",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's "
+        },
+        {
+            "imgUrl" : "/img/job-3.png",
+            "heading" : "SEO Developer",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's "
+        }
+    ],
+    "knowledge_share" : [
+        {
+            "workshop_on" : "CRM",
+            "speaker" : "John David",
+            "consultant_at" : "Accenture",
+            "date" : "30 April 2024",
+            "slot" : "11:00am - 1:00pm",
+            "location" : "P.D.A College of Engineering,Bangalore"
+        },
+        {
+            "workshop_on" : "ADB",
+            "speaker" : "Raj David",
+            "consultant_at" : "Accenture",
+            "date" : "30 April 2024",
+            "slot" : "11:00am - 1:00pm",
+            "location" : "P.D.A College of Engineering,Bangalore"
+        },
+        {
+            "workshop_on" : "CRM",
+            "speaker" : "Aman Singh",
+            "consultant_at" : "Accenture",
+            "date" : "30 April 2024",
+            "slot" : "11:00am - 1:00pm",
+            "location" : "P.D.A College of Engineering,Bangalore"
+        }
+    ],
+    "more_pages": [
+        {
+            "name" : "Knowledge Share",
+            "route" : "/knowledge"
+        },
+        {
+            "name" : "Internship",
+            "route" : "/internship"
+        },
+        {
+            "name" : "Job Opening",
+            "route" : "/job-opening"
+        },
+        {
+            "name" : "Sponser",
+            "route" : "/sponser"
+        },
+        {
+            "name" : "FAQ",
+            "route" : "/faq"
+        },
+        {
+            "name" : "Terms and Conditions",
+            "route" : "/terms-and-conditions"
+        },
+        {
+            "name" : "Private Policy",
+            "route" : "/private-policy"
+        }
+    ],
+    "event_register":[
+        {
+            "name" : "name",
+            "type" : "text",
+            "label" : "name"
+        },
+        {
+            "name" : "mobile_number",
+            "type" : "number",
+            "label" : "mobile number"
+        },
+        {
+            "name" : "cnc_number",
+            "type" : "number",
+            "label" : "CNC number"
+        },
+        {
+            "name" : "email",
+            "type" : "email",
+            "label" : "E-mail address"
+        }
+    ],
+    "schedule_post" : [
+        {
+            "name" : "date",
+            "imgUrl" :"/img/calendar.svg"
+        },
+        {
+            "name" : "time",
+            "imgUrl" :"/img/clock.svg"
+        }
+    ],
+    "attachments":[
+        {
+            "name" : "media",
+            "imgUrl" : "/img/image-gallery.svg"
+        },
+        {
+            "name" : "event",
+            "imgUrl" : "/img/election-event.svg"
+        },
+        {
+            "name" : "job",
+            "imgUrl" : "/img/suitcase.svg"
+        },
+        {
+            "name" : "template",
+            "imgUrl" : "/img/template.svg"
+        },
+        {
+            "name" : "poll",
+            "imgUrl" : "/img/polls.svg"
+        },
+        {
+            "name" : "celebrate",
+            "imgUrl" : "/img/community.svg"
+        },
+        {
+            "name" : "doument",
+            "imgUrl" : "/img/docs.svg"
+        },
+        {
+            "name" : "service",
+            "imgUrl" : "/img/customer-support.svg"
+        }
+    ],
     "post_menu": [
         {
             "name":"Save",
@@ -74,17 +222,17 @@
         {
             "icon" : "/img/alumni.svg",
             "name" :"alumni",
-            "route" : "/college-alumni"
+            "route" : "/alumni"
         },
         {
             "icon" : "/img/post.svg",
             "name" :"post",
-            "route" : "/post"
+            "route" : "/create-post"
         },
         {
             "icon" : "/img/events.svg",
             "name" :"events",
-            "route" : "/events"
+            "route" : "/college-events"
         },
         {
             "icon" : "/img/more.svg",

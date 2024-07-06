@@ -4,7 +4,7 @@ import React from "react";
 
 const Alumni = () => {
   return (
-    <Layout>
+    <Layout showFooter={true}>
       <ClassAlumni />
     </Layout>
   );

@@ -50,13 +50,25 @@ body {
 }
 
 select,
-select:focus,
-input,
-input:focus {
+select:focus {
   background: transparent;
   border: none;
   outline: none;
   border-radius: 5px;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  background-color: #f1dfff;
+  border: none;
+  outline: none;
+}
+
+input:checked {
+  background-color: #f1dfff;
 }
 
 button,

@@ -1,13 +1,13 @@
-import HomePage from "@/components/Home";
+import JobOpeningsPg from "@/components/JobOpenings";
 import Layout from "@/components/Layout";
 import React from "react";
 
-const Home = () => {
+const JobOpenings = () => {
   return (
     <Layout showFooter={true}>
-      <HomePage />
+      <JobOpeningsPg />
     </Layout>
   );
 };
 
-export default Home;
+export default JobOpenings;

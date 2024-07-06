@@ -42,7 +42,6 @@ const AlumniProfilePg = () => {
         </span>
       </div>
       <Post showPostMenu={showPostMenu} classes="bg-white" />
-      <Footer />
     </div>
   );
 };
