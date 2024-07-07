@@ -25,9 +25,7 @@ const MessagesPg = () => {
                   <span className="text-base font-medium capitalize">
                     {item}
                   </span>
-                  <span className="text-xs">
-                    Lorem Ipsum has been the industry's
-                  </span>
+                  <span className="text-xs">Lorem Ipsum has been the</span>
                 </div>
                 <div className="flex-center gap-1 flex-col">
                   <span className="text-xs">11:38 AM</span>

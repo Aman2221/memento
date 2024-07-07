@@ -38,17 +38,17 @@
         {
             "imgUrl" : "/img/job-1.png",
             "heading" : "Business Analyst Developer",
-            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's "
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  "
         },
         {
             "imgUrl" : "/img/job-2.png",
             "heading" : "UI/UX Desinger",
-            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's "
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  "
         },
         {
             "imgUrl" : "/img/job-3.png",
             "heading" : "SEO Developer",
-            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's "
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  "
         }
     ],
     "knowledge_share" : [
