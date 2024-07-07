@@ -7,7 +7,7 @@ import Image from "next/image";
 const Footer = () => {
   const router = useRouter();
   return (
-    <div className="fixed bottom-0 py-3 flex justify-between w-full bg-white">
+    <div className="fixed bottom-0 left-0 border-t p-3 flex justify-between w-full bg-white">
       {data.footer_opt.map((item) => (
         <div
           key={item.name}
@@ -15,7 +15,7 @@ const Footer = () => {
           className="flex-center flex-col"
         >
           <Image src={item.icon} height={30} width={30} alt={item.name} />
-          <span className="text-sm text-black">{item.name}</span>
+          <span className="text-sm text-black capitalize">{item.name}</span>
         </div>
       ))}
     </div>

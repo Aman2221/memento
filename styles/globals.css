@@ -57,13 +57,12 @@ select:focus {
   border-radius: 5px;
 }
 
-input {
+/* input {
   border: none;
-}
+} */
 
 input:focus {
-  background-color: #f1dfff;
-  border: none;
+  /* border: none; */
   outline: none;
 }
 

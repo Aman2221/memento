@@ -1,12 +1,38 @@
 {
+    "faq" : {
+        "questions" : [
+            "How to cancel my participate in an Event ?",
+            "How to discover new events based on my interesrt ?",
+            "How to use filter to search for events ?"
+        ],
+        "answers" : [
+            "Hey John David,Welcome to Mememto Happy to see you here.",
+            "How can I help you"
+        ]
+    },
     "internships" : [
         {
-            "title" : "",
-            "agency": ""
+            "title" : "Media and Communication Internship",
+            "agency": "Media House",
+            "category" : "Communication,Technology,Media",
+            "location" : "Banglore",
+            "type" : "Internship"
 
         },
-        {},
-        {}
+        {
+            "title" : "Internship of UI/UX Designer",
+            "agency": "Media House",
+            "category" : "User Interface,Wireframe,Prototype",
+            "location" : "Chennai",
+            "type" : "Internship"
+        },
+        {
+            "title" : "Media and Communication Internship",
+            "agency": "Media House",
+            "category" : "Communication,Technology,Media",
+            "location" : "Mumbai",
+            "type" : "Internship"
+        }
     ],
     "job_openings": [
         {
