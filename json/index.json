@@ -1,4 +1,61 @@
 {
+    "sidebar_options": [
+       {
+        "imgUrl" : "/img/profile-fill.svg",
+        "route" : "/my-profile",
+        "name" : "my profile"
+       },
+       {
+        "imgUrl" : "/img/location.svg",
+        "route" : "/my-address",
+        "name" : "my address"
+       },
+       {
+        "imgUrl" : "/img/multiple-users.svg",
+        "route" : "/my-batchmates",
+        "name" : "my batchmates"
+       },
+       {
+        "imgUrl" : "/img/status.svg",
+        "route" : "/my-activity",
+        "name" : "my activity"
+       },
+       {
+        "imgUrl" : "/img/archive.svg",
+        "route" : "/archived",
+        "name" : "archived"
+       },
+       {
+        "imgUrl" : "/img/block.svg",
+        "route" : "/blocked",
+        "name" : "blocked"
+       },
+       {
+        "imgUrl" : "/img/language.svg",
+        "route" : "/language",
+        "name" : "language"
+       },
+       {
+        "imgUrl" : "/img/send.svg",
+        "route" : "/invite-friends",
+        "name" : "follow and invite friends"
+       },
+       {
+        "imgUrl" : "/img/settings.svg",
+        "route" : "/settings",
+        "name" : "settings"
+       },
+       {
+        "imgUrl" : "/imp/help.svg",
+        "route" : "/help",
+        "name" : "help"
+       },
+       {
+        "imgUrl" : "/img/logout.svg",
+        "route" : "/logout",
+        "name" : "logout"
+       }
+    ],
     "faq" : {
         "questions" : [
             "How to cancel my participate in an Event ?",
@@ -84,15 +141,15 @@
         },
         {
             "name" : "Internship",
-            "route" : "/internship"
+            "route" : "/internships"
         },
         {
             "name" : "Job Opening",
-            "route" : "/job-opening"
+            "route" : "/job-openings"
         },
         {
             "name" : "Sponser",
-            "route" : "/sponser"
+            "route" : "/sponsers"
         },
         {
             "name" : "FAQ",
