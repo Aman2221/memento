@@ -49,7 +49,11 @@ const SidebarComp = ({ showSidebar }: { showSidebar: boolean }) => {
       </div>
       <div className="px-4">
         {data.sidebar_options.map((item) => (
-          <Link href={item.route} className="flex items-center mt-6 gap-3">
+          <Link
+            key={item.name}
+            href={item.route}
+            className="flex items-center mt-6 gap-3"
+          >
             <Image
               className="rounded-full shadow-md"
               src={item.imgUrl}

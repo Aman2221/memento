@@ -7,7 +7,10 @@ import BgPurple from "@/Buttons/BgPurple";
 const CheckMailPg = () => {
   const router = useRouter();
 
-  const checkMail = () => {};
+  const checkMail = () => {
+    router.push("/home");
+  };
+
   return (
     <div className="flex flex-col w-full mt-10">
       <div className="mb-6">
