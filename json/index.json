@@ -1,4 +1,246 @@
 {
+    "help_questions" :[
+        "About Memento ?",
+        "About linked devices ?",
+        "How to chat your friends ?",
+        "How to post ?",
+        "How to register your account with a phone call ?",
+        "How to manage your notification ?",
+        "How to manually update Memento?"
+    ],
+    "blocked_accounts" : [
+        {
+            "name" : "Aman",
+            "imgUrl" : "/img/y-user.png"
+        },
+        {
+            "name" : "Ankit",
+            "imgUrl" : "/img/y-user.png"
+        },
+        {
+            "name" : "Raj",
+            "imgUrl" : "/img/y-user.png"
+        },
+        {
+            "name" : "Satish",
+            "imgUrl" : "/img/y-user.png"
+        }
+    ],
+    "invite_friends" : [
+        {
+            "name" : "Invite friends by email",
+            "imgUrl" : "/img/email-add.svg"
+        },
+        {
+            "name" : "Invite friends by SMS",
+            "imgUrl" : "/img/chat.svg"
+        },
+        {
+            "name" : "Invite friends by ...",
+            "imgUrl" : "/img/send.svg"
+        }
+    ],
+    "liked_posts" : [
+        {
+            "user_name" : "Aman",
+            "imgUrl" : "/img/y-user.png"
+        },
+        {
+            "user_name" : "Ankuit",
+            "imgUrl" : "/img/y-user.png"
+        },
+        {
+            "user_name" : "Raj",
+            "imgUrl" : "/img/y-user.png"
+        },
+        {
+            "user_name" : "Sujit",
+            "imgUrl" : "/img/y-user.png"
+        },
+        {
+            "user_name" : "Ram",
+            "imgUrl" : "/img/y-user.png"
+        },
+        {
+            "user_name" : "Om",
+            "imgUrl" : "/img/y-user.png"
+        },
+        {
+            "user_name" : "Naveen",
+            "imgUrl" : "/img/y-user.png"
+        },
+        {
+            "user_name" : "dj",
+            "imgUrl" : "/img/y-user.png"
+        },
+        {
+            "user_name" : "Demo",
+            "imgUrl" : "/img/y-user.png"
+        },{
+            "user_name" : "Aman",
+            "imgUrl" : "/img/y-user.png"
+        },
+        {
+            "user_name" : "test",
+            "imgUrl" : "/img/y-user.png"
+        },
+        {
+            "user_name" : "test1",
+            "imgUrl" : "/img/y-user.png"
+        },
+        {
+            "user_name" : "Pavitra",
+            "imgUrl" : "/img/y-user.png"
+        },
+        {
+            "user_name" : "Pradeep",
+            "imgUrl" : "/img/y-user.png"
+        }
+    ],
+    "my_activity" : [
+        {
+            "imgUrl" :"/img/heart.svg",
+            "route" :"/likes",
+            "name" :"Likes"
+        },
+        {
+            "imgUrl" :"/img/chat.svg",
+            "route" :"/comments",
+            "name" :"Comments"
+        },
+        {
+            "imgUrl" :"/img/hash.svg",
+            "route" :"/tags",
+            "name" :"tags"
+        },
+        {
+            "imgUrl" :"/img/post.svg",
+            "route" :"/posts",
+            "name" :"Posts"
+        },
+        {
+            "imgUrl" :"/img/delete.svg",
+            "route" :"/recently-deleted",
+            "name" :"Recently deleted"
+        }
+    ],
+    "my_batchmates" : [
+        {
+            "name" : "Raj", 
+            "year" :2001
+        },
+        {
+            "name" : "Aman", 
+            "year" :2002
+        },
+        {
+            "name" : "sujit", 
+            "year" :2003
+        },
+        {
+            "name" : "Satish", 
+            "year" :2004
+        },
+        {
+            "name" : "Pavitra", 
+            "year" :2005
+        },
+        {
+            "name" : "Om", 
+            "year" :2006
+        },
+        {
+            "name" : "Tejas", 
+            "year" :2007
+        },
+        {
+            "name" : "Rambo", 
+            "year" :2008
+        },
+        {
+            "name" : "Bijoy", 
+            "year" :2008
+        }
+    ],
+    "my_address" : [{
+            "name" : "full name",
+            "type" :"text",
+            "value" : "Aman singh",
+            "keyName":"full_name"
+        },
+        {
+            "name" : "mobile number",
+            "type" :"number",
+            "value" : "8989787898",
+            "keyName":"mobile_name"
+        }, {
+            "name" : "address",
+            "type" :"text",
+            "value" : "Chennai - 600288,Tamil Nadu",
+            "keyName":"address"
+        }, {
+            "name" : "pincode",
+            "type" :"number",
+            "value" : "600288",
+            "keyName":"pincode"
+        },
+        {
+            "name" : "landmark",
+            "type" :"string",
+            "value" : "ECR road -3",
+            "keyName":"landmark"
+        },
+        {
+            "name" : "city",
+            "type" :"text",
+            "value" : "Chennai",
+            "keyName":"city"
+        },
+        {
+            "name" : "state",
+            "type" :"text",
+            "value" : "Chennai",
+            "keyName":"state"
+        }
+    ],
+    "my_profile" : [{
+        "name" : "full name",
+        "type" :"text",
+        "value" : "Aman singh",
+        "keyName":"full_name"
+    },
+    {
+        "name" : "mobile number",
+        "type" :"number",
+        "value" : 9178787809889,
+        "keyName":"mobile_name"
+    },
+    {
+        "name" : "E-Mail address",
+        "type" :"email",
+        "value" : "info@gmail.com",
+        "keyName":"email_address"
+    },
+    {
+        "name" : "gender",
+        "type" :"text",
+        "value" : "Male",
+        "keyName":"gender"
+    },
+    {
+        "name" : "date of birth",
+        "type" :"text",
+        "value" : "16-01-2001",
+        "keyName" : "date_of_birth"
+    },
+    {
+        "name" : "batch year",
+        "type" :"number",
+        "value" : 2020,
+        "keyName":"batch_year"
+    }
+
+],
     "sidebar_options": [
        {
         "imgUrl" : "/img/profile-fill.svg",

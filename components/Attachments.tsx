@@ -22,7 +22,7 @@ const Attachments = ({
           <div
             onClick={hide}
             key={item.name}
-            className="flex-center flex-col gap-2    w-20 h-20 bg-white rounded-full"
+            className="flex-center flex-col gap-2 w-20 h-20 bg-white rounded-full"
           >
             <Image src={item.imgUrl} height={22} width={22} alt="calendar" />
             <span className="text-xs font-medium capitalize">{item.name}</span>

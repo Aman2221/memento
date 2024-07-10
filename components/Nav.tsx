@@ -49,7 +49,7 @@ const Nav = ({
           <i onClick={handleNotification} className="bx bxs-bell text-2xl"></i>
         </div>
       ) : (
-        <></>
+        <span></span>
       )}
     </div>
   );
