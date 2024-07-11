@@ -400,7 +400,7 @@
         "name" : "settings"
        },
        {
-        "imgUrl" : "/imp/help.svg",
+        "imgUrl" : "/img/customer-support.svg",
         "route" : "/help",
         "name" : "help"
        },

@@ -13,6 +13,8 @@ const SidebarComp = ({
 }) => {
   const handlers = useSwipeable({
     onSwipedLeft: () => handleSidebar(),
+    onSwipedRight: () => handleSidebar(),
+    trackMouse: true,
   });
 
   return (

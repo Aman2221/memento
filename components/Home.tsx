@@ -26,16 +26,11 @@ const HomePage = () => {
   const SidebarCompPg = hideOverlay(SidebarComp, setShowSidebar);
 
   return (
-    <div className="py-20 ">
+    <div className="py-20 " {...handlers}>
       <Nav />
       <Post showPostMenu={handlePostMenu} />
       <PostMenuComp showMenu={showMenu} hideMenu={handlePostMenu} />
-      <div {...handlers}>
-        <SidebarCompPg
-          showSidebar={showSidebar}
-          handleSidebar={handleSidebar}
-        />
-      </div>
+      <SidebarCompPg showSidebar={showSidebar} handleSidebar={handleSidebar} />
     </div>
   );
 };
