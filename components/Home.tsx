@@ -1,12 +1,12 @@
 "use client";
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState } from "react";
 import Nav from "./Nav";
 import Stories from "./Stories";
-import Footer from "./Footer";
 import Post from "./Post";
 import PostMenu from "./PostMenu";
 import hideOverlay from "@/HOC/hideOverlay";
 import SidebarComp from "./Sidebar";
+import { useSwipeable } from "react-swipeable";
 
 const HomePage = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -14,6 +14,13 @@ const HomePage = () => {
   const handlePostMenu = () => {
     setShowMenu(!showMenu);
   };
+
+  const handleSidebar = () => setShowSidebar(!showSidebar);
+
+  const handlers = useSwipeable({
+    onSwipedRight: () => setShowSidebar(true),
+    onSwipedLeft: () => setShowSidebar(false),
+  });
 
   const PostMenuComp = hideOverlay(PostMenu, setShowMenu);
   const SidebarCompPg = hideOverlay(SidebarComp, setShowSidebar);
@@ -23,7 +30,9 @@ const HomePage = () => {
       <Nav />
       <Post showPostMenu={handlePostMenu} />
       <PostMenuComp showMenu={showMenu} hideMenu={handlePostMenu} />
-      <SidebarCompPg showSidebar={showSidebar} />
+      <div {...handlers}>
+        <SidebarCompPg showSidebar={showSidebar} />
+      </div>
     </div>
   );
 };
