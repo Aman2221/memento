@@ -68,13 +68,7 @@ const SidebarComp = ({
             href={item.route}
             className="flex items-center mt-6 gap-3"
           >
-            <Image
-              className="rounded-full shadow-md"
-              src={item.imgUrl}
-              height={20}
-              width={20}
-              alt="user img"
-            />
+            <Image src={item.imgUrl} height={20} width={20} alt="user img" />
             <span className="text-base capitalize">{item.name}</span>
           </Link>
         ))}
