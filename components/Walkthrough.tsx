@@ -18,7 +18,12 @@ const Walkthrough = () => {
   return (
     <div>
       <div className="absolute top-4 right-4">
-        <span>Skip</span>
+        <span
+          className="text-base font-medium"
+          onClick={() => router.push("/home")}
+        >
+          Skip
+        </span>
       </div>
       {data
         .filter((item: walk_type) => item.index == state)

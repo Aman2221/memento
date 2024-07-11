@@ -31,7 +31,10 @@ const HomePage = () => {
       <Post showPostMenu={handlePostMenu} />
       <PostMenuComp showMenu={showMenu} hideMenu={handlePostMenu} />
       <div {...handlers}>
-        <SidebarCompPg showSidebar={showSidebar} />
+        <SidebarCompPg
+          showSidebar={showSidebar}
+          handleSidebar={handleSidebar}
+        />
       </div>
     </div>
   );

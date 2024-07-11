@@ -14,7 +14,7 @@ const Footer = () => {
           onClick={() => router.push(item.route)}
           className="flex-center flex-col"
         >
-          <Image src={item.icon} height={30} width={30} alt={item.name} />
+          <Image src={item.icon} height={20} width={20} alt={item.name} />
           <span className="text-sm text-black capitalize">{item.name}</span>
         </div>
       ))}
