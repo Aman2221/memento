@@ -9,7 +9,7 @@ const InternshipsPg = () => {
   const handleRegister = () => {};
   return (
     <>
-      <Nav middleText="Internship" />
+      <Nav middleText="Internship" showBack={true} />
       <div className="py-20">
         {data.internships.map((item) => (
           <div key={item.title} className="border p-3 mt-4">

@@ -32,7 +32,7 @@ const Nav = ({
       {isComp ? (
         PorpCom
       ) : showBack ? (
-        <BackIcon onClick={() => router.push("/home")} />
+        <BackIcon onClick={() => router.back()} />
       ) : (
         <Link href="/home">
           <Image

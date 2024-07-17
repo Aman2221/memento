@@ -10,7 +10,7 @@ const KnowledgePage = () => {
   const handleRegister = () => {};
   return (
     <>
-      <Nav middleText="Knowledge" isComp={false} />
+      <Nav middleText="Knowledge" isComp={false} showBack={true} />
       <div className="py-20">
         {data.knowledge_share.map((item, index) => (
           <div key={index} className="border p-3 mt-5">

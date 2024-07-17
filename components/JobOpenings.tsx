@@ -11,7 +11,7 @@ const JobOpeningsPg = () => {
   const handleApply = () => {};
   return (
     <>
-      <Nav middleText="Job Opening" />
+      <Nav middleText="Job Opening" showBack={true} />
       <div className="py-20">
         {data.job_openings.map((item) => (
           <div
