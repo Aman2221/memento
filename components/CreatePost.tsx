@@ -43,7 +43,7 @@ const CreatePostPg = () => {
   return (
     <div>
       <Nav
-        middleText="Your Feed"
+        middleText="Create post"
         isComp={true}
         PorpCom={
           <div className="flex items-center gap-3">

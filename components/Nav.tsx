@@ -3,6 +3,7 @@ import BackIcon from "@/Buttons/BackIcon";
 import Image from "next/image";
 import React from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const Nav = ({
   middleText = "Memento",
@@ -33,16 +34,20 @@ const Nav = ({
       ) : showBack ? (
         <BackIcon onClick={() => router.push("/home")} />
       ) : (
-        <Image
-          className="rounded-full shadow-md"
-          src="/img/y-user.png"
-          height={50}
-          width={50}
-          alt="user img"
-        />
+        <Link href="/home">
+          <Image
+            className="rounded-full shadow-md"
+            src="/img/y-user.png"
+            height={50}
+            width={50}
+            alt="user img"
+          />
+        </Link>
       )}
 
-      <h1 className="font-bold text-black text-2xl">{middleText}</h1>
+      <Link href="/home">
+        <h1 className="font-bold text-black text-2xl">{middleText}</h1>
+      </Link>
       {showRightSide ? (
         <div className="flex items-center gap-4">
           <i onClick={handleMessage} className="bx bxs-message text-2xl"></i>

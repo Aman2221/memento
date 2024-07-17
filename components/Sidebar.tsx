@@ -21,7 +21,7 @@ const SidebarComp = ({
     <div
       className={`${
         showSidebar ? "left-0" : "-left-80"
-      } h-dvh bg-white shadow-md w-76 absolute top-0 z-20 transition-all ease-in animate__animated animate__fadeInLeft`}
+      } h-dvh bg-white shadow-md w-76 fixed top-0 z-20 transition-all ease-in animate__animated animate__fadeInLeft`}
       {...handlers}
     >
       <div className="post-bg flex gap-4 p-3">
