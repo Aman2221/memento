@@ -24,26 +24,26 @@ const EnterOTP = () => {
       <span className="text-center text-lg mt-6">Enter Your OTP code here</span>
       <div className="gap-6 flex-center mt-6">
         <input
-          className="bg-purple-200 w-12 h-12 p-3 flex-center"
+          className="bg-blue-200 w-12 h-12 p-3 flex-center"
           type="number"
         />
         <input
-          className="bg-purple-200 w-12 h-12 p-3 flex-center"
+          className="bg-blue-200 w-12 h-12 p-3 flex-center"
           type="number"
         />
         <input
-          className="bg-purple-200 w-12 h-12 p-3 flex-center"
+          className="bg-blue-200 w-12 h-12 p-3 flex-center"
           type="number"
         />
         <input
-          className="bg-purple-200 w-12 h-12 p-3 flex-center"
+          className="bg-blue-200 w-12 h-12 p-3 flex-center"
           type="number"
         />
       </div>
       <div className="flex-center flex-col mt-6">
         <span className="text-sm">I didn’t receive the code</span>
         <span
-          className="text-md font-semibold text-purple-400"
+          className="text-md font-semibold text-blue-400"
           onClick={resendCode}
         >
           Resend

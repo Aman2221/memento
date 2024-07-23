@@ -84,11 +84,11 @@ select:focus {
 }
 
 .bg-lgt-pk {
-  background: #fbeeff;
+  background: rgba(33, 103, 255, 0.3);
 }
 .post-bg {
-  background-color: #f1dfff;
+  background: rgba(33, 103, 255, 0.2);
 }
 .bg-drk-pk {
-  background: #8937ca;
+  background: rgb(52, 99, 201);
 }

@@ -13,13 +13,13 @@ const EventsPage = () => {
           <div
             key={item}
             className={`${
-              item == activeTab ? "border-purple-400" : ""
+              item == activeTab ? "border-blue-400" : ""
             } flex-1 flex-center py-2 border-b-2 ease-in`}
             onClick={() => setActiveTab(item)}
           >
             <span
               className={`${
-                item == activeTab ? "text-purple-400" : "text-black"
+                item == activeTab ? "text-blue-400" : "text-black"
               } text-lg font-semibold capitalize ease-in`}
             >
               {item}

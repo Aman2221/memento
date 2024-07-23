@@ -17,8 +17,8 @@ const CheckMailPg = () => {
         <BackIcon onClick={() => router.push("/create-account")} />
       </div>
       <div className="flex-center flex-col">
-        <div className="flex-center h-16 w-16 rounded-full bg-purple-200">
-          <i className="bx bx-envelope text-2xl font-bold text-purple-400"></i>
+        <div className="flex-center h-16 w-16 rounded-full bg-blue-200">
+          <i className="bx bx-envelope text-2xl font-bold text-blue-400"></i>
         </div>
         <div className="flex-center flex-col mt-6">
           <h1 className="text-2xl">Check Your E-mail</h1>

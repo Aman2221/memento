@@ -30,7 +30,7 @@ const LoginPage = () => {
           <div key={item.label} className="mt-6 flex flex-col">
             <span className="text-sm capitalize">{item.label}</span>
             <input
-              className=" bg-purple-200 px-3 py-2 mt-1  "
+              className=" bg-blue-200 px-3 py-2 mt-1  "
               type={item.type}
               name={item.name}
               onChange={handleInputChange}
@@ -41,7 +41,7 @@ const LoginPage = () => {
       <div className="flex justify-end w-full mt-2">
         <span
           onClick={() => router.push("/forgot-password")}
-          className=" text-purple-400 text-sm"
+          className=" text-blue-400 text-sm"
         >
           Forget Password ?
         </span>

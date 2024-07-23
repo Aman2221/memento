@@ -29,7 +29,7 @@ const EventConfirmationPg = () => {
           className="w-full rounded"
           alt="success img"
         />
-        <span className="font-bold text-purple-400 text-2xl mt-2">
+        <span className="font-bold text-blue-400 text-2xl mt-2">
           Thank You !
         </span>
         <span className="font-semibold text-lg mt-2">

@@ -26,7 +26,7 @@ const SelectCollege = () => {
           Already you have account? or
           <span
             onClick={() => router.push("/login")}
-            className=" text-purple-400"
+            className=" text-blue-400"
           >
             &nbsp;Log in
           </span>

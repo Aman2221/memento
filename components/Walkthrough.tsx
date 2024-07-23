@@ -42,7 +42,7 @@ const Walkthrough = () => {
                 <span className="text-center mt-2">{item.desc}</span>
                 <button
                   onClick={handleNext}
-                  className="max-w-max border-purple-400 border-2 px-8 py-2 rounded-md mt-10"
+                  className="max-w-max border-blue-400 border-2 px-8 py-2 rounded-md mt-10"
                 >
                   {item.buttonText}
                 </button>

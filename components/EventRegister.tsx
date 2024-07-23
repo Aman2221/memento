@@ -35,7 +35,7 @@ const EventRegistePg = () => {
           ))}
           <div className="flex items-center gap-2 pt-4">
             <input
-              className="border border-purple-400 rounded-md"
+              className="border border-blue-400 rounded-md"
               type="checkbox"
               name="interested"
               id="interested"

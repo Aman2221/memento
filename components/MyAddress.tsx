@@ -36,7 +36,7 @@ const MyAddressPg = () => {
             </span>
             {isEdit ? (
               <button
-                className="text-purple-400 text-sm font-semibold border-none outline-none"
+                className="text-blue-400 text-sm font-semibold border-none outline-none"
                 onClick={() => setIsEdit(false)}
               >
                 Edit

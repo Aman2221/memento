@@ -33,7 +33,7 @@ const ResetPasswordPg = () => {
           <div key={item.label} className="mt-6 flex flex-col">
             <span className="text-sm capitalize">{item.label}</span>
             <input
-              className=" bg-purple-200 px-3 py-2 mt-1  "
+              className=" bg-blue-200 px-3 py-2 mt-1  "
               type={item.type}
               name={item.name}
               onChange={handleInputChange}

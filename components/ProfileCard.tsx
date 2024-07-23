@@ -46,7 +46,7 @@ const ProfileCard = ({
             </div>
           </div>
 
-          <span className="text-purple-400">+&nbsp;Connect</span>
+          <span className="text-blue-400">+&nbsp;Connect</span>
         </div>
       ))}
     </>

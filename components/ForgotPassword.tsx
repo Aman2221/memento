@@ -25,7 +25,7 @@ const ForgotPasswordPg = () => {
       <div className="mt-6 flex flex-col">
         <span className="text-sm capitalize">E-Mail Address</span>
         <input
-          className=" bg-purple-200 px-3 py-2 mt-1  "
+          className=" bg-blue-200 px-3 py-2 mt-1  "
           type="email"
           name="email"
           onChange={handleInputChange}
