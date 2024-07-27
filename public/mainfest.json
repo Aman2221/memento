@@ -1,7 +1,7 @@
 {
     "name": "Memento",
     "short_name": "Memento",
-    "description": "Memento - App for colleges",
+    "description": "Memento - Make contact with your college friends",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",

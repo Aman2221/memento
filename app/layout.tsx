@@ -25,7 +25,7 @@ export default function RootLayout({
         <link rel="manifest" href="mainfest.json" />
         <meta
           name="description"
-          content="Memento - Make contact with your college friends"
+          content="To contact people you know, all it takes is one click"
         />
         <meta
           property="og:title"
@@ -37,7 +37,7 @@ export default function RootLayout({
         />
         <meta
           property="og:description"
-          content="Memento - Make contact with your college friends"
+          content="To contact people you know, all it takes is one click"
         />
         <meta name="author" content="Aman Shivaji Singh" />
         <meta property="og:url" content="https://app-memento.netlify.app" />
