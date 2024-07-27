@@ -11,7 +11,7 @@ const CollegeEvent = () => {
 
   return (
     <>
-      <Nav middleText="" showBack={true} showRightSide={false} />
+      <Nav middleText="Events" showBack={true} showRightSide={false} />
       <div className="flex-center flex-col mt-32">
         <h1 className="text-2xl">College name</h1>
         <div className="flex flex-col w-full">

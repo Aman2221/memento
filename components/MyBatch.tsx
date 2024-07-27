@@ -1,12 +1,25 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Nav from "./Nav";
 import SearchInput from "@/Buttons/SearchInput";
 import Image from "next/image";
 import data from "@/json/index.json";
 
 const MyBatchPg = () => {
-  const handleInputChange = () => {};
+  const [batchmates, setBatchMates] = useState(data.my_batchmates);
+  const handleInputChange = (e: React.FormEvent<HTMLInputElement>) => {
+    let target: any = e.target;
+    let val = target.value;
+    if (val.length > 3)
+      setBatchMates(
+        batchmates.filter((i) =>
+          i.name.toLowerCase().includes(val.toLowerCase())
+        )
+      );
+    else {
+      setBatchMates(data.my_batchmates);
+    }
+  };
   return (
     <div>
       <Nav showBack={true} showRightSide={false} middleText="My Batchmates" />
@@ -15,7 +28,7 @@ const MyBatchPg = () => {
           <SearchInput handleInputChange={handleInputChange} />
         </div>
         <div className="grid grid-cols-3 gap-x-4 gap-y-6 gap place-items-center mt-6">
-          {data.my_batchmates.map((item) => (
+          {batchmates.map((item) => (
             <div key={item.name} className="flex-center flex-col">
               <Image
                 src="/img/y-user.png"

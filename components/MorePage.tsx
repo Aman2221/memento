@@ -10,7 +10,7 @@ const MorePage = () => {
 
   return (
     <>
-      <Nav middleText="Events" isComp={false} />
+      <Nav middleText="More" isComp={false} />
       <div className="py-20">
         {data.more_pages.map((item) => (
           <div

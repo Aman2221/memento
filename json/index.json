@@ -386,8 +386,8 @@
        },
        {
         "imgUrl" : "/img/language.svg",
-        "route" : "/language",
-        "name" : "language"
+        "route" : "/languages",
+        "name" : "languages"
        },
        {
         "imgUrl" : "/img/send.svg",
@@ -406,7 +406,7 @@
        },
        {
         "imgUrl" : "/img/logout.svg",
-        "route" : "/logout",
+        "route" : "/login",
         "name" : "logout"
        }
     ],

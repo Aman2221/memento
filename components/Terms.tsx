@@ -5,7 +5,11 @@ import Image from "next/image";
 const TermsAndCondition = () => {
   return (
     <div>
-      <Nav middleText="Terms & Conditions" />
+      <Nav
+        showBack={true}
+        middleText="Terms & Conditions"
+        showRightSide={false}
+      />
       <div className="py-20 flex-center flex-col">
         <Image
           className="w-full object-contain"

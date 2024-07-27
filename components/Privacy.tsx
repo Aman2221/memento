@@ -5,7 +5,7 @@ import Image from "next/image";
 const PrivatPolicyPg = () => {
   return (
     <div>
-      <Nav middleText="Private Policy" />
+      <Nav showBack={true} showRightSide={false} middleText="Private Policy" />
       <div className="py-20 flex-center flex-col">
         <Image
           className="w-full object-contain"
