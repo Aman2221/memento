@@ -23,6 +23,27 @@ export default function RootLayout({
         ></link>
         <link rel="icon" type="image/x-icon" href="favicon.ico"></link>
         <link rel="manifest" href="mainfest.json" />
+        <meta
+          name="description"
+          content="Memento - Make contact with your college friends"
+        />
+        <meta
+          property="og:title"
+          content="Memento - Make contact with your college friends"
+        />
+        <meta
+          property="og:image"
+          content="https://app-memento.netlify.app/favicon.ico"
+        />
+        <meta
+          property="og:description"
+          content="Memento - Make contact with your college friends"
+        />
+        <meta name="author" content="Aman Shivaji Singh" />
+        <meta property="og:url" content="https://app-memento.netlify.app" />
+        <meta property="og:type" content="website" />
+        <meta name="keywords" content="Memento, college, network" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#000000" />
       </head>
       <body>{children}</body>
